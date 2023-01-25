@@ -13,12 +13,14 @@ const quizRedoucer = (state, action) =>{
 
     switch(action.type) {
         case "CHAGE_STATE":
-            return state
+            return{
+                ...state,
+                gameStage: STAGES[1],
+            }
             
         default:
             return state
     };
-
 };
 
 export const QuizContext = createContext();
