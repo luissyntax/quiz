@@ -114,6 +114,21 @@ const data = [
     ],
     answer: "Um evento que é disparado quando o usuário clica em um elemento da página",
     }
+    {
+    question: "Qual é a diferença entre null e undefined em JavaScript?",
+    options: ["Não há diferença", "Null é um objeto e undefined é um tipo primitivo", "Null é um valor atribuído e undefined significa que uma variável não foi declarada", "Null é falso e undefined é verdadeiro"],
+    answer: "Null é um valor atribuído e undefined significa que uma variável não foi declarada"
+    },
+    {
+    question: "Qual método de array em JavaScript retorna um novo array com todos os elementos que passam no teste implementado pela função fornecida?",
+    options: ["map()", "filter()", "reduce()", "forEach()"],
+    answer: "filter()"
+    },
+    {
+    question: "Qual é o resultado da expressão a seguir?\n\ntypeof NaN",
+    options: ["'number'", "'NaN'", "'undefined'", "'object'"],
+    answer: "'number'"
+    }
 ];
 
 export default data;
